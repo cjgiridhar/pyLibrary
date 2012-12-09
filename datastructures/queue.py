@@ -1,27 +1,3 @@
-#############################################################################
-# Queue.py - Implementation of Queue in Python
-# 1. enqueue - Adds an item to the queue
-# 2. dequeue - Remove an element from queue
-# 3. show - Lists the contents of queue
-# 4. isEmpty - To check if queue is empty
-# 5. isFull - To check if queue is full
-#
-# PyLibrary                      Version 1.0
-# Copyright 2010 Chetan Giridhar cjgiridhar@gmail.com
-# Created: 04/15/2012             Last Modified: 04/15/2012
-#
-# This file is part of PyLibrary.
-#
-# PyLibrary is free software; you can redistribute it and/or modify
-# it under the terms of the GNU General Public License v3 as published by
-# the Free Software Foundation; 
-#
-# PyLibrary is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#                                                                             
-#############################################################################
 class Queue:
 	def __init__(self,size):
 		self.queue = []

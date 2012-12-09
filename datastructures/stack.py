@@ -1,27 +1,3 @@
-#############################################################################
-# Stack.py - Implementation of stack in Python
-# 1. push - Add an item to stack
-# 2. pop - Remove an element from stack
-# 3. top_pf_stack - Returns item at the top of stack
-# 4. show - Lists the contents of stack
-#
-# PyLibrary                      Version 1.0
-# Copyright 2010 Chetan Giridhar cjgiridhar@gmail.com
-# Created: 04/14/2012             Last Modified: 04/14/2012
-#
-# This file is part of PyLibrary.
-#
-# PyLibrary is free software; you can redistribute it and/or modify
-# it under the terms of the GNU General Public License v3 as published by
-# the Free Software Foundation; 
-#
-# PyLibrary is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#                                                                             
-#############################################################################
-
 class Stack:
 	""" 
 	Stack implementation in Python

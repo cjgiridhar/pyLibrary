@@ -9,7 +9,7 @@ pyLibrary is a collection of infrastructure libraries that aid faster developmen
 Features
 ========
 
-    	- Database operations
+	- Database operations
 		** Support for SQLIte db operations
 		** Handles MongoDB operations
 		
@@ -41,3 +41,21 @@ Features
 	
 	- Logging mechanisms
 		** Logger to enable info, error, warning messages
+
+
+Usage
+=====
+- Download pyLibrary project
+- Use libraries from pyLibrary with 'import pyLibrary'
+
+
+Contact
+=======
+
+Chetan Giridhar , cjgiridhar@gmail.com
+
+License
+=======
+GNU General Public License v3.0
+
+Copyright (c) Chetan Giridhar, [technobeans](http://technobeans.com)

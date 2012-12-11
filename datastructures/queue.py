@@ -1,43 +1,51 @@
 class Queue:
+	"""
+		Queue implementation in Python
+	"""
+
 	def __init__(self,size):
+		"""
+			Size of the queue is fixed
+		"""
 		self.queue = []
 		self.SIZE = size
 		
-	def isEmpty(self):
+	def __isEmpty(self):
+		"""
+			Provate method to check if queue is empty
+		"""
 		if len(self.queue) == 0:
-			print "Queue is empty!!"
-			exit(1)
-		else:
-			print "Queue contains elements!!"
-			exit(1)
+			raise Exception, "Queue is empty!!"
 			
-	def isFull(self):
+	def __isFull(self):
+		"""
+			Private method to check if queue is full
+		"""
 		if len(self.queue) == self.SIZE:
-			print "Queue is full!!"
-			exit(1)
+			raise Exception, "Queue is full!!"
 			
 	def enqueue(self, item):
-			self.isFull()
-			self.queue.append(item)
-			return self.queue
+		"""
+			Inserts an element in queue
+		"""
+		self.__isFull()
+		return self.queue.insert(0,item)
 		
 	def dequeue(self):
-		self.isEmpty()
-		temp = self.queue[0]
-		del self.queue[0]
-		return temp
+		"""
+			Removes an element from queue
+		"""
+		self.__isEmpty()
+		return self.queue.pop()
 
 	def show(self):
-		print self.queue
+		return self.queue
 
 if __name__ == '__main__':		
 	Q = Queue(10)
-	Q.isEmpty()
 	Q.enqueue(3)
 	Q.enqueue(4)
-	Q.show()
+	print Q.show()
 	Q.dequeue()
-	Q.dequeue()
-	Q.dequeue()
-	Q.show()
+	print Q.show()
 		
